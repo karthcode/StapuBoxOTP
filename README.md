@@ -68,6 +68,7 @@ StapuBoxOTP/
 ## 🧪 Notes
 * This repository focuses on frontend implementation as per the assignment.
 * Backend APIs (if any) are mocked or integrated only to support the OTP flow.
+* Folder structure was prepared for scalability; due to limited scope, some utilities/components were inlined.
 * APK files are intentionally not committed to the repository.
 
 ## 👤 Author
