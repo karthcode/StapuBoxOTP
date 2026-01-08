@@ -22,7 +22,7 @@ The app demonstrates a clean, user-friendly OTP login experience using React Nat
 
 - React Native
 - JavaScript / TypeScript
-- Android (tested)
+- Android 
 - React Native CLI
 
 ---
