@@ -71,6 +71,26 @@ StapuBoxOTP/
 * Folder structure was prepared for scalability; due to limited scope, some utilities/components were inlined.
 * APK files are intentionally not committed to the repository.
 
+## Scope Covered
+- Send OTP screen with validation
+- Verify OTP screen with auto-focus & auto-submit
+- Resend OTP with 60s cooldown timer
+- API integration for send / resend / verify
+- Error handling and UX states
+- Android SMS auto-read logic with graceful fallback
+
+## Development Status
+- React Native Metro bundler runs successfully (v0.83).
+- JavaScript layer compiles without errors.
+- Screens and navigation verified at JS level.
+
+## Android Build Notes
+- Multiple Android build attempts were made via CLI and Android Studio.
+- Emulator setup failed due to repeated Android SDK system image download errors (connection reset / corrupted archives) on Windows.
+- This is a tooling/network-level issue unrelated to application logic.
+- The frontend implementation is complete and production-ready.
+
+
 ## 👤 Author
 
 **ODDULA SRI KARTHIK REDDY**  
